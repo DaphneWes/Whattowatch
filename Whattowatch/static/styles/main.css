@@ -1,0 +1,203 @@
+.center {
+    margin:auto;
+    width: 60%;
+    text-align: center;
+}
+
+.center h1 {
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 150px;
+    padding-bottom: 20px; 
+}
+
+.center p {
+    padding-bottom: 50px;
+}
+
+.center a {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bodyindex {
+    background-color: grey;
+}
+
+#colourtoptable {
+    background-color: aliceblue;
+}
+
+#toptable {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#resulttable .col {
+    text-align: center;
+}
+
+#popular h1 {
+    text-align: center;
+}
+
+#upcoming h1 {
+    text-align: center;
+}
+
+#search {
+    padding-top: 75px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#search h1 {
+    padding: 20px;
+    font-weight: 2px;
+}
+
+.txt-center {
+    text-align: center;
+  }
+  .hide {
+    display: none;
+  }
+
+  .clear {
+    float: none;
+    clear: both;
+  }
+
+  .rating {
+      width: 90px;
+      unicode-bidi: bidi-override;
+      direction: rtl;
+      text-align: center;
+      position: relative;
+  }
+
+  .rating > label {
+      float: right;
+      display: inline;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      cursor: pointer;
+      color: #000;
+      font-size: 20px;
+  }
+
+  .rating > label:hover,
+  .rating > label:hover ~ label,
+  .rating > input.radio-btn:checked ~ label {
+      color: transparent;
+  }
+
+  .rating > label:hover:before,
+  .rating > label:hover ~ label:before,
+  .rating > input.radio-btn:checked ~ label:before,
+  .rating > input.radio-btn:checked ~ label:before {
+      content: "\2605";
+      position: absolute;
+      left: 0;
+      color: #FFD700;
+  }
+
+  repeat {
+display:block;
+}
+
+repeat[n="1"]:before {
+content: "★";
+color: #FFD700;
+font-size: 20px;
+}
+
+repeat[n="2"]:before {
+content: "★★";
+color: #FFD700;
+font-size: 20px;
+}
+
+repeat[n="3"]:before {
+content: "★★★";
+color: #FFD700;
+font-size: 20px;
+}
+
+repeat[n="4"]:before {
+content: "★★★★";
+color: #FFD700;
+font-size: 20px;
+}
+
+repeat[n="5"]:before {
+content: "★★★★★";
+color: #FFD700;
+font-size: 20px;
+}
+
+.usernamereview {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+#question1 {
+    margin: auto;
+
+}
+
+#upperrow {
+    padding-bottom: 50px;
+}
+
+#posterpersonal {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#watched {
+    text-align: center;
+}
+.personal {
+    padding-top: 20px;
+}
+
+#quiz h2, h1 {
+    text-align: center;
+}
+
+#questionselect {
+    text-align: center;
+    width: 500px;
+    align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#quiz {
+    padding-top: 40px;
+}
+
+#titlequiz {
+    font-weight: bold;
+}
+
+#quizbutton {
+    display: block;
+    margin: 0 auto;
+}
+
+#radiobutton {
+    margin-left: 5%;
+}
+
+#radiopicture {
+    margin-left: 15%;
+}
+
+#errormessage {
+    text-align: center;
+}

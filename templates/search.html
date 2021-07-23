@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    What to watch
+{% endblock %}
+
+{% block body %}
+<div id="search">
+    <br>
+    <h1>Search for a movie</h1>
+    <br>
+    <form method="POST" action="{{ url_for('searchresults') }}">
+        <div class="form-group">
+            <select class="form-control" id="detail" name="detail">
+              <option value="title">Title</option>
+              <option value="year">Year</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="movie_info" placeholder="Search query">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-danger">Search</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
