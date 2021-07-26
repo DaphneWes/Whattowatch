@@ -14,7 +14,7 @@ from mollie.api.client import Client
 from mollie.api.error import Error
 
 FLASK_APP=application.py
-DATABASE_URL = postgres://kxgcyrtctakpzh:a10d1be49564ba126670c0d3b5f378946c991e7a2039dce62c9774c7a6cd3694@ec2-54-228-209-117.eu-west-1.compute.amazonaws.com:5432/d912pobek628sq
+DATABASE_URL = postgresql://kxgcyrtctakpzh:a10d1be49564ba126670c0d3b5f378946c991e7a2039dce62c9774c7a6cd3694@ec2-54-228-209-117.eu-west-1.compute.amazonaws.com:5432/d912pobek628sq
 
 app = Flask(__name__)
 
